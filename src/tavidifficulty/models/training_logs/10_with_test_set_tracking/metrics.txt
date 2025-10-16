@@ -1,0 +1,18 @@
+{   'descriptor': 'performance metrics at the epoch, where the validation loss '
+                  'was minimal',
+    'epoch': 97,
+    'val_loss': 0.5241383059486511,
+    'val_acc': 0.7066406250000029,
+    'val_acc_var': 0.1842163860843722,
+    'test_loss': 0.5451559381241678,
+    'test_acc': 0.6855468750000001,
+    'test_acc_var': 0.16955383035295898}
+
+{   'descriptor': 'performance metrics at epoch 99, currently the last epoch',
+    'epoch': 99,
+    'val_loss': 0.5246802456592121,
+    'val_acc': 0.7062500000000029,
+    'val_acc_var': 0.18375689541988843,
+    'test_loss': 0.5455142856785471,
+    'test_acc': 0.6871744791666669,
+    'test_acc_var': 0.17080727292094777}

@@ -1,0 +1,37 @@
+{   'descriptor': 'performance metrics at the epoch, where the validation loss '
+                  'was minimal',
+    'epoch': 146,
+    'val_loss': 0.5327288837058142,
+    'val_acc': 0.691650390625,
+    'val_acc_var': 0.2042942855338515,
+    'test_loss': 0.5403327737671652,
+    'test_acc': 0.6972656250000001,
+    'test_acc_var': 0.2106423345956597}
+
+{   'descriptor': 'performance metrics at epoch 99, currently the last epoch',
+    'epoch': 99,
+    'val_loss': 0.5342861156038712,
+    'val_acc': 0.689208984375,
+    'val_acc_var': 0.2027424289538658,
+    'test_loss': 0.5398275157492054,
+    'test_acc': 0.6976562499999999,
+    'test_acc_var': 0.2092028200116471}
+
+
+val classification report at min val loss:               precision    recall  f1-score   support
+
+ not optimal       0.64      0.80      0.71      1961
+     optimal       0.76      0.59      0.67      2135
+
+    accuracy                           0.69      4096
+   macro avg       0.70      0.70      0.69      4096
+weighted avg       0.71      0.69      0.69      4096
+
+test classification report at min val loss:               precision    recall  f1-score   support
+
+ not optimal       0.64      0.80      0.71      2386
+     optimal       0.78      0.61      0.68      2734
+
+    accuracy                           0.70      5120
+   macro avg       0.71      0.70      0.70      5120
+weighted avg       0.71      0.70      0.70      5120

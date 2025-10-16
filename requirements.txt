@@ -1,0 +1,7 @@
+pandas
+matplotlib
+numpy
+torch
+scikit-learn
+nibabel
+reportlab

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tavi-difficulty"
+description = "tavi difficulty prediction using machine learning tools"
+authors = [
+    { name = "Philipp Weinmann", email = "philipp.weinmann71@gmail.com" }
+]
+dependencies = [
+    "pandas",
+    "matplotlib",
+    "numpy",
+    "torch",
+    "scikit-learn",
+    "nibabel",
+    "reportlab",
+    "openpyxl",
+    "ray[default]",
+    "seaborn",
+    "optuna",
+    "plotly",
+    "nbformat",
+]
+dynamic = ["version"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = {find = {where = ["src"], namespaces = true}}
+
+[tool.setuptools.dynamic]
+version = {attr = "tavidifficulty.__version__"}

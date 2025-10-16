@@ -1,0 +1,1 @@
+{'linDropoutRate': 0.3781699841848126, 'convDropoutRate': 0.008987655766637417, 'optimizer': <class 'torch.optim.sgd.SGD'>, 'lr': 0.009402148211490864}
